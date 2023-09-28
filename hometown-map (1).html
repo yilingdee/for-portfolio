@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a5bed2cda615edde6516f4fd431f77a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a5bed2cda615edde6516f4fd431f77a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a5bed2cda615edde6516f4fd431f77a = L.map(
+                "map_7a5bed2cda615edde6516f4fd431f77a",
+                {
+                    center: [32.880924, -97.297171],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cd7f07af65b724ca437059e923510a8c = L.tileLayer(
+                "https://api.mapbox.com/styles/v1/deannachukes/clmpr6pst04qw01p764wk8n4c/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZGVhbm5hY2h1a2VzIiwiYSI6ImNsbW8yaXFyZTA0azAyanFza2pxZ3cyMG4ifQ.CxdEEPxv2_WuHZtbNQnqkg",
+                {"attribution": "Created by deanna chukes with mapbox.com data sources", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+            var marker_732875a0e8dbad4880d380bb83dce684 = L.marker(
+                [32.85847491, -97.29971108],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_b29fd6b71364f3e7ec5848cd35eb6bad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52451fe8c5924b5c467214386e9f2476 = $(`<div id="html_52451fe8c5924b5c467214386e9f2476" style="width: 100.0%; height: 100.0%;">The Golf Club at Fossil Creek</div>`)[0];
+                popup_b29fd6b71364f3e7ec5848cd35eb6bad.setContent(html_52451fe8c5924b5c467214386e9f2476);
+            
+        
+
+        marker_732875a0e8dbad4880d380bb83dce684.bindPopup(popup_b29fd6b71364f3e7ec5848cd35eb6bad)
+        ;
+
+        
+    
+    
+            var marker_ccf9bcc4d710293c12ae04cfeb55a4d3 = L.marker(
+                [32.89391207, -97.281328],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_0d00bee815bce8606e1341b2a9858ccf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e99f1a0f8c45509df78dc9ccfdab4bdb = $(`<div id="html_e99f1a0f8c45509df78dc9ccfdab4bdb" style="width: 100.0%; height: 100.0%;">Trace Ridge Park</div>`)[0];
+                popup_0d00bee815bce8606e1341b2a9858ccf.setContent(html_e99f1a0f8c45509df78dc9ccfdab4bdb);
+            
+        
+
+        marker_ccf9bcc4d710293c12ae04cfeb55a4d3.bindPopup(popup_0d00bee815bce8606e1341b2a9858ccf)
+        ;
+
+        
+    
+    
+            var marker_510632f0760293374f44b58697d3bac5 = L.marker(
+                [32.85313943, -97.19413934],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_adfff30284b5cdd4e6d98ab3377568d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_937b4d1ccccc06f18614b72c65c61c27 = $(`<div id="html_937b4d1ccccc06f18614b72c65c61c27" style="width: 100.0%; height: 100.0%;">NRH2O</div>`)[0];
+                popup_adfff30284b5cdd4e6d98ab3377568d2.setContent(html_937b4d1ccccc06f18614b72c65c61c27);
+            
+        
+
+        marker_510632f0760293374f44b58697d3bac5.bindPopup(popup_adfff30284b5cdd4e6d98ab3377568d2)
+        ;
+
+        
+    
+    
+            var marker_f5221dffa983d9387b2eec6ac723a3ec = L.marker(
+                [32.91085732, -97.31527862],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_30616300cb876127463202ed2b6ebc33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85dbad6e079e0477db3258267e101ae5 = $(`<div id="html_85dbad6e079e0477db3258267e101ae5" style="width: 100.0%; height: 100.0%;">Alliance Town Center</div>`)[0];
+                popup_30616300cb876127463202ed2b6ebc33.setContent(html_85dbad6e079e0477db3258267e101ae5);
+            
+        
+
+        marker_f5221dffa983d9387b2eec6ac723a3ec.bindPopup(popup_30616300cb876127463202ed2b6ebc33)
+        ;
+
+        
+    
+    
+            var marker_0308135ee6ab695bcce59b1934a2ad89 = L.marker(
+                [32.83338094, -97.19997582],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_52a18bdd78abb191ec206cf11820740c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_310221d993f5fd01d76110d116b9df69 = $(`<div id="html_310221d993f5fd01d76110d116b9df69" style="width: 100.0%; height: 100.0%;">Northeast Mall</div>`)[0];
+                popup_52a18bdd78abb191ec206cf11820740c.setContent(html_310221d993f5fd01d76110d116b9df69);
+            
+        
+
+        marker_0308135ee6ab695bcce59b1934a2ad89.bindPopup(popup_52a18bdd78abb191ec206cf11820740c)
+        ;
+
+        
+    
+    
+            var marker_27ece8d68dfce8ee174817705339c2ac = L.marker(
+                [32.90342102, -97.28578485],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_4a462ce28049c1eedf030d5e57abf134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a234c38a523ee2d05f3cb44de0b68c7 = $(`<div id="html_9a234c38a523ee2d05f3cb44de0b68c7" style="width: 100.0%; height: 100.0%;">Lone Star Elementary</div>`)[0];
+                popup_4a462ce28049c1eedf030d5e57abf134.setContent(html_9a234c38a523ee2d05f3cb44de0b68c7);
+            
+        
+
+        marker_27ece8d68dfce8ee174817705339c2ac.bindPopup(popup_4a462ce28049c1eedf030d5e57abf134)
+        ;
+
+        
+    
+    
+            var marker_2b62a968723e3d53bed8aec06a848de3 = L.marker(
+                [32.91050154, -97.26985809],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_7ccc3354e6797a90cea7b263dc28d10f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60ba3f7f81bd543ed41198c5a7c51079 = $(`<div id="html_60ba3f7f81bd543ed41198c5a7c51079" style="width: 100.0%; height: 100.0%;">Central High School</div>`)[0];
+                popup_7ccc3354e6797a90cea7b263dc28d10f.setContent(html_60ba3f7f81bd543ed41198c5a7c51079);
+            
+        
+
+        marker_2b62a968723e3d53bed8aec06a848de3.bindPopup(popup_7ccc3354e6797a90cea7b263dc28d10f)
+        ;
+
+        
+    
+    
+            var marker_6f17aba51db2138c403ac37761088cb1 = L.marker(
+                [32.81520501, -97.35670265],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_f3c585cec410dcf8e56449eeef64c406 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_752d8f35cc827c0c8d75f72a966723d3 = $(`<div id="html_752d8f35cc827c0c8d75f72a966723d3" style="width: 100.0%; height: 100.0%;">Vintage Flying Museum</div>`)[0];
+                popup_f3c585cec410dcf8e56449eeef64c406.setContent(html_752d8f35cc827c0c8d75f72a966723d3);
+            
+        
+
+        marker_6f17aba51db2138c403ac37761088cb1.bindPopup(popup_f3c585cec410dcf8e56449eeef64c406)
+        ;
+
+        
+    
+    
+            var marker_fc4eeda20a391d684a8b2661d0f24982 = L.marker(
+                [32.87958837, -97.25795445],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_5d98450efb53ed932dfd0f72a18b143c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_589211f62c654887d0d0571ef46d4d05 = $(`<div id="html_589211f62c654887d0d0571ef46d4d05" style="width: 100.0%; height: 100.0%;">Capp Smith Park</div>`)[0];
+                popup_5d98450efb53ed932dfd0f72a18b143c.setContent(html_589211f62c654887d0d0571ef46d4d05);
+            
+        
+
+        marker_fc4eeda20a391d684a8b2661d0f24982.bindPopup(popup_5d98450efb53ed932dfd0f72a18b143c)
+        ;
+
+        
+    
+    
+            var marker_38cde5dbecc5a520294e9bda41022c0c = L.marker(
+                [32.85342784, -97.28323159],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_2b565821c933be4d6d54b5c6e771a814 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_327bebb0aa5f1f9855a527010895e59f = $(`<div id="html_327bebb0aa5f1f9855a527010895e59f" style="width: 100.0%; height: 100.0%;">Buffalo Ridge Park</div>`)[0];
+                popup_2b565821c933be4d6d54b5c6e771a814.setContent(html_327bebb0aa5f1f9855a527010895e59f);
+            
+        
+
+        marker_38cde5dbecc5a520294e9bda41022c0c.bindPopup(popup_2b565821c933be4d6d54b5c6e771a814)
+        ;
+
+        
+    
+    
+            var marker_8de53a06e7fd5391c6435d6813a2c6e5 = L.marker(
+                [32.85847491, -97.29971108],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_a6cfd3e569b67cd5ba55429c7396aa14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_449d2a7a09d308533bd839cc3ba58bb3 = $(`<div id="html_449d2a7a09d308533bd839cc3ba58bb3" style="width: 100.0%; height: 100.0%;">['The Golf Club at Fossil Creek', 'The place where I took golf lessons in my childhood']</div>`)[0];
+                popup_a6cfd3e569b67cd5ba55429c7396aa14.setContent(html_449d2a7a09d308533bd839cc3ba58bb3);
+            
+        
+
+        marker_8de53a06e7fd5391c6435d6813a2c6e5.bindPopup(popup_a6cfd3e569b67cd5ba55429c7396aa14)
+        ;
+
+        
+    
+    
+            var marker_d831ce0eb3cf7294432ab41367590a61 = L.marker(
+                [32.89391207, -97.281328],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_d9596aac94a0d5ed5aefc73a21d2b5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b5e012096a9bc0f046fd808770309a2 = $(`<div id="html_6b5e012096a9bc0f046fd808770309a2" style="width: 100.0%; height: 100.0%;">['Trace Ridge Park', 'The park and soccer field next to my childhood home']</div>`)[0];
+                popup_d9596aac94a0d5ed5aefc73a21d2b5c8.setContent(html_6b5e012096a9bc0f046fd808770309a2);
+            
+        
+
+        marker_d831ce0eb3cf7294432ab41367590a61.bindPopup(popup_d9596aac94a0d5ed5aefc73a21d2b5c8)
+        ;
+
+        
+    
+    
+            var marker_8123a5b6b23d114a4dda92c926488e58 = L.marker(
+                [32.85313943, -97.19413934],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_411143e5bad1aaea475bb218878f90e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d411c144f52e0943c45eaa1001a08a21 = $(`<div id="html_d411c144f52e0943c45eaa1001a08a21" style="width: 100.0%; height: 100.0%;">['NRH2O', 'Local waterpark that I spent several summers going to']</div>`)[0];
+                popup_411143e5bad1aaea475bb218878f90e2.setContent(html_d411c144f52e0943c45eaa1001a08a21);
+            
+        
+
+        marker_8123a5b6b23d114a4dda92c926488e58.bindPopup(popup_411143e5bad1aaea475bb218878f90e2)
+        ;
+
+        
+    
+    
+            var marker_5e06eb644a9e754251d4621472c66285 = L.marker(
+                [32.91085732, -97.31527862],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_7f65e565eaaa2036729e419fb0e580ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_450df0d9b77d2c5ce6064e8596f1712c = $(`<div id="html_450df0d9b77d2c5ce6064e8596f1712c" style="width: 100.0%; height: 100.0%;">['Alliance Town Center', 'The really popular shopping area near my neighborhood']</div>`)[0];
+                popup_7f65e565eaaa2036729e419fb0e580ba.setContent(html_450df0d9b77d2c5ce6064e8596f1712c);
+            
+        
+
+        marker_5e06eb644a9e754251d4621472c66285.bindPopup(popup_7f65e565eaaa2036729e419fb0e580ba)
+        ;
+
+        
+    
+    
+            var marker_975bfc7f48015a54ca9189494fe21c62 = L.marker(
+                [32.83338094, -97.19997582],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_f92a8e72efc0c176cd211e24601926f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebf6d9315b7bec9152763381fd612a40 = $(`<div id="html_ebf6d9315b7bec9152763381fd612a40" style="width: 100.0%; height: 100.0%;">['Northeast Mall', 'The mall I frequented the most growing up']</div>`)[0];
+                popup_f92a8e72efc0c176cd211e24601926f9.setContent(html_ebf6d9315b7bec9152763381fd612a40);
+            
+        
+
+        marker_975bfc7f48015a54ca9189494fe21c62.bindPopup(popup_f92a8e72efc0c176cd211e24601926f9)
+        ;
+
+        
+    
+    
+            var marker_148c1485ccf6f36ccf3b016995f1f969 = L.marker(
+                [32.90342102, -97.28578485],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_cf751dd9939a3faebf5f090dc970978d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d56017e2e89507dc06e24b01719a63e3 = $(`<div id="html_d56017e2e89507dc06e24b01719a63e3" style="width: 100.0%; height: 100.0%;">['Lone Star Elementary', 'The elementary school I went to from kinder to 4th grade']</div>`)[0];
+                popup_cf751dd9939a3faebf5f090dc970978d.setContent(html_d56017e2e89507dc06e24b01719a63e3);
+            
+        
+
+        marker_148c1485ccf6f36ccf3b016995f1f969.bindPopup(popup_cf751dd9939a3faebf5f090dc970978d)
+        ;
+
+        
+    
+    
+            var marker_63144425339a1beae5af552fed654ae8 = L.marker(
+                [32.91050154, -97.26985809],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_8018e74ae64dc4f5fbeb58afc98d7975 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c839d85591ca5b7b5e0f0c3416077bd5 = $(`<div id="html_c839d85591ca5b7b5e0f0c3416077bd5" style="width: 100.0%; height: 100.0%;">['Central High School', 'The high school I went to for all four years']</div>`)[0];
+                popup_8018e74ae64dc4f5fbeb58afc98d7975.setContent(html_c839d85591ca5b7b5e0f0c3416077bd5);
+            
+        
+
+        marker_63144425339a1beae5af552fed654ae8.bindPopup(popup_8018e74ae64dc4f5fbeb58afc98d7975)
+        ;
+
+        
+    
+    
+            var marker_2c7f9e643e744e0fe4042a3c23e24fd4 = L.marker(
+                [32.81520501, -97.35670265],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_02d3814f72009081c5b59f5171acf384 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b115c60d797b615cafc43e5699d16ab6 = $(`<div id="html_b115c60d797b615cafc43e5699d16ab6" style="width: 100.0%; height: 100.0%;">['Vintage Flying Museum', 'A novelty museum with lots of cool structures of planes']</div>`)[0];
+                popup_02d3814f72009081c5b59f5171acf384.setContent(html_b115c60d797b615cafc43e5699d16ab6);
+            
+        
+
+        marker_2c7f9e643e744e0fe4042a3c23e24fd4.bindPopup(popup_02d3814f72009081c5b59f5171acf384)
+        ;
+
+        
+    
+    
+            var marker_d9643a7c36c84d7aed329097103cbce6 = L.marker(
+                [32.87958837, -97.25795445],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_e8db7374afe56bf9ad98ab4db96df33b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e221f9fcc8d57ae348960ce8d671e0a = $(`<div id="html_8e221f9fcc8d57ae348960ce8d671e0a" style="width: 100.0%; height: 100.0%;">['Capp Smith Park', 'The park I played kickball at for ten consecutive years']</div>`)[0];
+                popup_e8db7374afe56bf9ad98ab4db96df33b.setContent(html_8e221f9fcc8d57ae348960ce8d671e0a);
+            
+        
+
+        marker_d9643a7c36c84d7aed329097103cbce6.bindPopup(popup_e8db7374afe56bf9ad98ab4db96df33b)
+        ;
+
+        
+    
+    
+            var marker_b6d68f6892faca20e328c83116238b9d = L.marker(
+                [32.85342784, -97.28323159],
+                {}
+            ).addTo(map_7a5bed2cda615edde6516f4fd431f77a);
+        
+    
+        var popup_5d0ac100a5e9d6b05e35feeb9c86efb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80a798fb07ecb9a925cccf3691bce0b3 = $(`<div id="html_80a798fb07ecb9a925cccf3691bce0b3" style="width: 100.0%; height: 100.0%;">['Buffalo Ridge Park', 'A nice park to walk in, complete with fishing spots and smooth sand']</div>`)[0];
+                popup_5d0ac100a5e9d6b05e35feeb9c86efb2.setContent(html_80a798fb07ecb9a925cccf3691bce0b3);
+            
+        
+
+        marker_b6d68f6892faca20e328c83116238b9d.bindPopup(popup_5d0ac100a5e9d6b05e35feeb9c86efb2)
+        ;
+
+        
+    
+</script>
+</html>
